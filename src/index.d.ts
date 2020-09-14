@@ -85,6 +85,7 @@ export interface WithTranslation extends WithT {
 export interface WithTranslationProps {
   i18n?: i18n;
   useSuspense?: boolean;
+  ref?: (component: any) => any;
 }
 
 export function withTranslation(
